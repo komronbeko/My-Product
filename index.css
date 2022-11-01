@@ -1,0 +1,282 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.container{
+    margin: auto 146px;
+}
+body{
+    font-family: Poppins;
+    font-style: normal;
+    /* background-color: #E5E5E5; */
+}
+
+a{
+    text-decoration: none;
+}
+li{
+    list-style: none;
+}
+header{
+    background-color: #E5E5E5;
+}
+.header-div{
+    padding: 19px;
+    display: flex;
+    justify-content: space-between;
+}
+.header-left{
+    display: flex;
+}
+.header-right{
+    display: flex;
+    column-gap: 24px;
+}
+.header-left h3{
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 28px;
+    color: #173A56;  
+    padding-left: 16px;
+    margin-top: 9px;
+}
+.header-right ul a{
+    font-size: 16px;
+    line-height: 28px;
+    color: #22343D;
+}
+.header-right ul{
+    display: flex;
+    column-gap: 24px;
+}
+.ul1{
+    margin-top: 7px;
+}
+.logo{
+    margin-top: 5px;
+}
+.but1{
+    border: 1px solid #BCD0E5;
+    border-radius: 4px;
+    padding: 10px 24px;
+}
+.but2{
+    border: 1px solid #BCD0E5;
+    border-radius: 4px;
+    padding: 10px 24px;
+}
+
+.but1:hover{
+    background-color: #02897A;
+    color: #FFFFFF;
+}
+.but2:hover{
+    background-color: #02897A;
+    color: #FFFFFF;
+}
+.section1{
+    padding-top: 145px;
+    padding-bottom: 220px;
+    background-color: #E5E5E5;
+}
+.section1-left h1{
+    font-size: 40px;
+    line-height: 60px;
+    color: #22343D;
+    width: 518px;
+    height: 120px;
+}
+.section1-left p{
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+    color: #22343D;
+    width: 458px;
+    height: 95px;
+    margin-top: 18px;
+    margin-bottom: 45px;
+}
+
+.section1-right{
+    position: absolute;
+    width: 600px;
+    height: 555.72px;
+    left: 750px;
+    top: 105px; 
+}
+.but3{
+   background-color: #FFFFFF; 
+   height: 53px;
+   width: 175px;
+   border-radius: 4px;
+   padding: 15px 41px;
+   border: 1px solid #FFFFFF;
+   font-weight: 700;
+   font-size: 16px;
+   line-height: 24px;   
+}
+.but3 a{
+    color: #22343D;
+}
+.section1__left-div button:hover{
+   background-color: #02897A;
+   color: #FFFFFF;
+}
+.section1__left-div span{
+    color: #02897A;
+    margin-left: 30px;
+}
+.section1__left-div span img{
+    width: 20px;
+    height: 17px;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    margin-right: 8px;
+}
+.section2{
+    padding-bottom: 90px;
+    background-color: #E5E5E5;
+}
+.section2-top{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    margin-bottom: 58px;
+}
+
+.section2-top h2{
+    width: 539px;
+    height: 96px;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 48px;
+    color: #22343D;
+}
+.boxes{
+    display: flex;
+    justify-content: space-between;
+}
+.box1{
+    width: 240px;
+    height: 178px;
+}
+.box1-second{
+    margin-top: 14px;
+}
+.box1-second p{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+}  
+.but{
+    display: flex;
+    justify-content: center; 
+    margin-top: 34px;   
+}
+.but4{
+    border-radius: 4px;
+    background-color: #FFFFFF;
+    padding: 15px 32px 14px 34px;
+    border: 1px solid #FFFFFF;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+} 
+.but4:hover{
+    background-color: #02897A;
+    color: #FFFFFF;
+}
+.section3{
+    padding-top: 153px;
+    padding-bottom: 150px;
+    background-color: #FFFFFF;
+    
+}
+
+.section3 li{
+    display: flex;
+    column-gap: 84px;
+}
+.ul-div-context span{
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.ul__div__context-1 h4{
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 48px;  
+    margin-bottom: 131px;  
+}
+.ul__div__context-2{
+    display: flex;
+    flex-direction: column;
+    row-gap: 12px;
+}
+.ul-div-img{
+    width: 539.83px;
+    height: 473.47px;
+}
+.alterationists{
+    margin-top: 13px;
+}
+.div-context{
+    width: 486px;
+    height: 427px;
+}
+.div-context h4{
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 48px;
+    color: #22343D;  
+    margin-bottom: 23px;  
+}
+.div-context span {
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    color: #22343D;
+    margin-top: 36px;
+    margin-bottom: 8px;
+}
+.div-context p{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #22343D; 
+}
+.tick{
+    padding-top: 30px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 30px;
+    /* width: 385px; */
+}
+.tick p{
+    width: 385px;
+    height: 52px;
+}
+
+.s1::before {
+  content: url(./images/icon1.svg);
+  
+}
+.s2::before {
+    content: url(./images/icon2.svg);
+}
+.s3::before {
+    content: url(./images/icon3.svg);
+}
+.ul2-div{
+    display: flex;
+    column-gap: 94px;
+    margin: 146px auto;
+}
+.few{
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 48px;  
+    margin-bottom: 23px;  
+}
