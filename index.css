@@ -255,19 +255,24 @@ header{
     /* width: 385px; */
 }
 .tick p{
-    width: 385px;
     height: 52px;
+    width: 430px;
+    height: 52px;
+    display: flex;
+    column-gap: 30px;
 }
 
 .s1::before {
   content: url(./images/icon1.svg);
-  
+ 
 }
 .s2::before {
     content: url(./images/icon2.svg);
+    
 }
 .s3::before {
     content: url(./images/icon3.svg);
+    
 }
 .ul2-div{
     display: flex;
